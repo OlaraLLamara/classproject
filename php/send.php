@@ -79,9 +79,9 @@
 
 		
 		$to = "olara.lamara@gmail.com"; 	
-		$subject = "Request";
+		$subject = "Request for a photoshoot appointment";
 		
-		$headers = "From: Orabel <olara.lamara@gmail.com>";		
+		$headers = "From: Lamara <olara.lamara@gmail.com>";		
 
 		$message = "Request is arrived with the details below." . "\n\n";
 		$message .= "CONTACT DATA" . "\n";
@@ -100,7 +100,7 @@
 		$usersubject = "Request confirmation";
 		$usermessage = "Dear " . $customer_name . "," . "\n\n" . "Thank you for contacting us. We will reply shortly." . "\n\n";
 		$usermessage .= "Best Regards," . "\n";
-		$usermessage .= "Orabel Team";
+		$usermessage .= "Lamara Team";
 
 		// Send to the user
 		mail($user, $usersubject, $usermessage, $headers);
